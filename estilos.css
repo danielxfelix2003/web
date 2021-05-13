@@ -1,0 +1,201 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+nav
+{
+    width: 100%;
+    background-color: #ededed;
+    color: black;
+
+}
+a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.lugar
+{
+    color:darkgray;
+    text-decoration: none; 
+}
+h5{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+.inicio
+{
+    background-image: url("images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 35rem;
+    height: 35rem;
+}
+.presentacion{
+    background-color: rgb(0,0,0);
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer{
+    background-color: ededed;
+    height: 3rem;
+}
+
+/*Galeria de Fotos*/
+.galeria{
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria li{
+    margin: 2px;
+}
+.galeria img{  
+    width: 320px;
+    height: 180px;
+}
+.galeria figure{
+    margin: 0;
+    color: white;
+}
+.galeria figcaption{
+    text-align: center;
+    background-color:rgba(0,0,0,0.7);
+    width: 100%;
+    padding: 3%;
+}
+/*Galeria de video*/
+.galeria2{
+    width: 100%;
+    list-style: none;
+    padding: 0px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria2 li{
+    margin: 2px;
+}
+.galeria2 img{  
+    width: 320px;
+    height: 180px;
+}
+.galeria2 figure{
+    margin: 0;
+    color: white;
+}
+.galeria2 figcaption{
+    text-align: center;
+    background-color:rgba(0,0,0,0.7);
+    width: 100%;
+    padding: 3%;
+}
+.galeria2 video{
+    width: 320px;
+    height: 180px;
+}
+/*Sección de modal Galeria*/
+.modal{
+    display: none;
+}
+.modal:target{
+    display: block;
+    position: fixed;
+    background-color: rgba(0,0,0,0.8);
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+.imagen{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen a{
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+.imagen img{
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border: 7px solid;
+}
+.cerrar{
+    display: block;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+
+    border-radius: 50%;
+    line-height: 25px;
+
+}
+
+/*Sección Servicios*/
+
+.item-inner{
+    background-color: white;
+    border-radius: 4%;
+}
+.title{
+    text-align: center;
+}
+.intro{
+    text-align: center;
+    padding-top: 1rem;
+    margin: 1rem;
+}
+.espacio{
+    padding-top: 1rem;
+}
+.item img{
+    margin: auto;
+}
+
+.perfil div figure{
+    margin: 0;
+    color: black;
+}
+.perfil div figcaption{
+    text-align: center;
+    background-color: #a3a3a3;
+    width: 300px;
+    padding: 3%;
+}

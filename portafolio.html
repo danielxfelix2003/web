@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Ds Multimedia - Galeria</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+        <a href="index.html"><img src="logo.png" width="150px" height="80px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="servicios.html">Servicios</a>
+            <a class="nav-item nav-link" href="Quien-Soy.html">Quien Soy</a>
+            <a class="nav-item nav-link disabled" href="Galeria.html">Portafolio</a>
+          </div>
+        </div>
+      </nav>
+
+    <section style="padding-top: 6rem; color: black;">
+            <h1>Fotografías</h1>
+            <ul class="galeria" style="background-color: rgba(213,215,218, 0.1)">
+                <li><a href="#img1"><figure><img src="images/Galeria/img1.jpeg"><figcaption>Imagen - Libre</figcaption></figure></a></li>
+                <li><a href="#img2"><figure><img src="images/Galeria/img2.jpeg"><figcaption>Imagen - Suspenso</figcaption></figure></a></li>
+                <li><a href="#img3"><figure><img src="images/Galeria/img3.jpg"><figcaption>Imagen - Primer plano</figcaption></figure></a></li>
+                <li><a href="#img4"><figure><img src="images/Galeria/img4.jpg"><figcaption>Imagen - Plano General</figcaption></figure></a></li>
+            </ul>
+
+            <div class="modal" id="img1">
+                <h3>Imagen - Libre</h3>
+                <div class="imagen">
+                    <a href=""></a>
+                    <img src="images/Galeria/img1.jpeg">
+                    <a href="#img2">></a>
+                </div>
+                <a class="cerrar" href="">X</a>
+            </div>
+            <div class="modal" id="img2">
+                <h3>Imagen - Suspenso</h3>
+                <div class="imagen">
+                    <a href="#img">&#60;</a>
+                    <img src="images/Galeria/img2.jpeg">
+                    <a href="#img3">></a>
+                </div>
+                <a class="cerrar" href="">x</a>
+            </div>
+            <div class="modal" id="img3">
+                <h3>Imagen - Primer plano</h3>
+                <div class="imagen">
+                    <a href="#img2">&#60;</a>
+                    <img src="images/Galeria/img3.jpg">
+                    <a href="#img4">></a>
+                </div>
+                <a class="cerrar" href="">x</a>
+            </div>
+            <div class="modal" id="img4">
+                <h3>Imagen - Plano General</h3>
+                <div class="imagen">
+                    <a href="#img3">&#60;</a>
+                    <img src="images/Galeria/img4.jpg">
+                    <a href="#img2"></a>
+                </div>
+                <a class="cerrar" href="">x</a>
+            </div>
+            <h1>Ilustraciones</h1>
+            <ul class="galeria" style="background-color: rgba(213,215,218, 0.1)">
+                <li><a href="#iimg1"><figure><img src="images/galeria/ipersonaje.jpg"><figcaption>Ilustración - Personaje</figcaption></figure></a></li>
+                <li><a href="#iimg2"><figure><img src="images/Galeria/iimg1.jpeg"><figcaption>Ilustración - Escenario 1</figcaption></figure></a></li>
+                <li><a href="#iimg3"><figure><img src="images/Galeria/iimg2.jpeg"><figcaption>Ilustración - Escenario 2</figcaption></figure></a></li>
+                <li><a href="#iimg4"><figure><img src="images/Galeria/iimg3.jpeg"><figcaption>Ilustración - Escenario 3</figcaption></figure></a></li>
+            </ul>
+
+            <div class="modal" id="iimg1">
+                <h3>Ilustración - Personaje</h3>
+                <div class="imagen">
+                    <a href=""></a>
+                    <img src="images/Galeria/ipersonaje.jpg">
+                    <a href="#iimg2">></a>
+                </div>
+                <a class="cerrar" href="">X</a>
+            </div>
+            <div class="modal" id="iimg2">
+                <h3>Ilustración - Escenario 1</h3>
+                <div class="imagen">
+                    <a href="#iimg1">&#60;</a>
+                    <img src="images/Galeria/iimg1.jpeg">
+                    <a href="#iimg3">></a>
+                </div>
+                <a class="cerrar" href="">x</a>
+            </div>
+            <div class="modal" id="iimg3">
+                <h3>Ilustración - Escenario 2</h3>
+                <div class="imagen">
+                    <a href="#iimg2">&#60;</a>
+                    <img src="images/Galeria/iimg2.jpeg">
+                    <a href="#iimg4">></a>
+                </div>
+                <a class="cerrar" href="">x</a>
+            </div>
+            <div class="modal" id="iimg4">
+                <h3>Ilustración - Escenario 3</h3>
+                <div class="imagen">
+                    <a href="#iimg3">&#60;</a>
+                    <img src="images/Galeria/iimg3.jpeg">
+                    <a href="#iimg2"></a>
+                </div>
+                <a class="cerrar" href="">x</a>
+            </div>
+            <h1>Videos</h1>
+            <ul class="galeria2" style="background-color: rgba(213,215,218, 0.1)">
+                <li><figure><video src="video/filminuto.mp4" controls></video><figcaption>Video - Filminuto</figcaption></figure></li>
+            </ul>
+            <h1>Archivos</h1>
+            <ul class="galeria" style="background-color: rgba(213,215,218, 0.1)">
+                <li><a href="archives/Manual_corporativo.pdf"><figure><img src="images/Logo-PDF.jpg"><figcaption>PDF - Manual de marca</figcaption></figure></a></li>
+                <li><a href="archives/Libro_Producción.pdf"><figure><img src="images/Logo-PDF.jpg"><figcaption>PDF - Libro de Prodcción</figcaption></figure></a></li>
+            </ul>
+
+    </section>
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted">
+      <!-- Section: Social media -->
+      <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+          <span>Contáctame en las redes sociales:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+          <a href="https://www.facebook.com/dalcom.zombie/" class="me-4 text-reset">
+              <img src="images/facebook.png" width="30px" height="30px">
+          </a>
+          <a href="https://www.instagram.com/danielito_sj/?hl=es-la" class="me-4 text-reset">
+              <img src="images/instagram.png" width="30px" height="30px">
+          </a>
+      </div>
+      <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Links  -->
+      <section class="">
+      <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Daniel Suanca Multimedia
+              </h6>
+              <p>
+              Especializado en producción multimedia, fotografia y animación.
+              </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-5 col-lg-4 col-xl-4 mx-auto mb-8">
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+              Contacto
+              </h6>
+              <p>
+              <i class="fas fa-envelope me-3"></i>
+              dfsuanca@misena.edu.co
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 57 319 7819757</p>
+
+          </div>
+          <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+      </div>
+      </section>
+      <!-- Section: Links  -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          Pagina web: Daniel Felipe Suanca Copyright ©2021-2022
+      </div>
+      <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+    <!--Archivos de javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!--Archivos de javascript-->
+</body>
+</html>
